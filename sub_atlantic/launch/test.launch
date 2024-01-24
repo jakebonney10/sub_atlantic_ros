@@ -1,0 +1,18 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package="sub_atlantic",
+            executable="valve_pack_node",
+            name="valve_pack_node",
+            output="screen",
+            emulate_tty=True,
+            parameters=[{
+                'baud_rate': 9600,
+                'device_address': '/dev/ttyUSB0',
+                'connect_timeout': 10,
+            }]
+        )
+    ])
