@@ -25,7 +25,7 @@ void ValvePackDriver::initializeParameters() {
 }
 
 void ValvePackDriver::valveCmdCallback(const sub_atlantic_interfaces::msg::ValveCmd::SharedPtr msg) {
-  // Implement the functionality here
+  // Implement callback functionality for subscriber here
   // ...
 }
 
@@ -66,4 +66,33 @@ void ValvePackDriver::replaceSubstitutionCharacter(std::vector<unsigned char>& d
                                                    unsigned char characterToReplace, 
                                                    unsigned char substitutionCharacter) {
   std::replace(data.begin(), data.end(), characterToReplace, substitutionCharacter);
+}
+
+std::vector<uint8_t> ValvePackDriver::standardControlMsg(uint8_t pwm1_8, uint8_t pwm9_16, uint8_t pwm_open_loop) {
+  std::vector<uint8_t> msg;
+  
+  msg.push_back(0x00); // Index 0: Substitution Character TODO: placeholder for now
+  msg.push_back(0x01); // Index 1: Message ID - always 0x01 for standard control message
+  msg.push_back(0x00); // Index 2: Control Serials and Message Address for second board - not implemented, set to 0
+  msg.push_back(0x00); // Index 3: Control Analogues - not implemented, set to 0x00
+  msg.push_back(pwm1_8); // Index 4: PWM1-8 On/Off, 0x00 = all off
+  msg.push_back(pwm9_16); // Index 5: PWM9-16 On/Off, 0x00 = all off
+  msg.push_back(0x00); // Index 6: Switched outputs DOUT1-8 On/Off
+  msg.push_back(0x00); // Index 7: Switched outputs DOUT1-8 On/Off
+  msg.push_back(0x00); // Index 8: Secondary supplies SSUP1-4 On/Off
+  msg.push_back(pwm_open_loop); // Index 9: PWM1-16 Open Loop On/Off, 2 valves per bit
+
+  // Index 10-25: Current Set Points for PWM pairs - Index 10: 1-2 (upper byte), Index 11: 1-2 (lower byte), etc.
+  for (int i = 0; i < 16; i++) {
+      msg.push_back(0x00); // TODO: placeholder, need to get 16-bit current set-point and split into upper and lower bytes
+  }
+
+  msg.push_back(0x00); // Index 26: RS232 Channel 2 Data To Transmit, not implemented, set to 0x00
+  msg.push_back(0x00); // Index 27: CAN 1 Data To Transmit, not implemented, set to 0x00
+  msg.push_back(0x00); // Index 28: CAN 2 Data To Transmit, not implemented, set to 0x00 
+  msg.push_back(0x00); // Index 29: CRC-16 upper byte, TODO: placeholder, calculate actual CRC
+  msg.push_back(0x00); // Index 30: CRC-16 lower byte
+  msg.push_back(0xAA); // End of Frame identifier
+  return msg;
+
 }

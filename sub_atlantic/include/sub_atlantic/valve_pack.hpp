@@ -85,6 +85,20 @@ private:
   void replaceSubstitutionCharacter(std::vector<unsigned char>& data, 
                                     unsigned char characterToReplace, 
                                     unsigned char substitutionCharacter);
+
+  /**
+   * @brief Constructs a standard control message for the valve pack board.
+   * 
+   * This function builds a message according to the specified communication protocol.
+   * The message includes various control flags and data points, such as PWM settings and current set points.
+   * 
+   * @param pwm1_8 Control byte for PWM1-8 (defaults to 0x00, all off).
+   * @param pwm9_16 Control byte for PWM9-16 (defaults to 0x00, all off).
+   * @param pwm_open_loop Control byte for PWM1-16 Open Loop On/Off (defaults to 0x00).
+   * @return std::vector<uint8_t> The constructed message as a vector of bytes.
+   */
+  std::vector<uint8_t> standardControlMsg(uint8_t pwm1_8 = 0x00, uint8_t pwm9_16 = 0x00, uint8_t pwm_open_loop = 0x00);
+  
 };
 
 #endif // VALVE_PACK_HPP
