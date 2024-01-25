@@ -62,6 +62,22 @@ void ValvePackDriver::changeBit(uint8_t& byte, uint8_t bit, bool value) {
   }
 }
 
+uint8_t ValvePackDriver::findSubstitutionCharacter(const std::vector<uint8_t>& frame) {
+    uint8_t possibleSubChar = 0x00;
+    do {
+        if (possibleSubChar != 0xAA) {
+            // Check if possibleSubChar exists in the frame
+            if (std::find(frame.begin(), frame.end(), possibleSubChar) == frame.end()) {
+                return possibleSubChar; // Found a suitable substitution character
+            }
+        }
+        possibleSubChar++;
+    } while (possibleSubChar != 0x00); // When possibleSubChar wraps around to 0x00, the loop ends
+
+    throw std::runtime_error("No suitable substitution character found");
+}
+
+
 void ValvePackDriver::replaceSubstitutionCharacter(std::vector<unsigned char>& data, 
                                                    unsigned char characterToReplace, 
                                                    unsigned char substitutionCharacter) {
@@ -69,8 +85,7 @@ void ValvePackDriver::replaceSubstitutionCharacter(std::vector<unsigned char>& d
 }
 
 std::vector<uint8_t> ValvePackDriver::standardControlMsg(uint8_t pwm1_8, uint8_t pwm9_16, uint8_t pwm_open_loop) {
-  std::vector<uint8_t> msg;
-  
+  std::vector<uint8_t> msg; 
   msg.push_back(0x00); // Index 0: Substitution Character TODO: placeholder for now
   msg.push_back(0x01); // Index 1: Message ID - always 0x01 for standard control message
   msg.push_back(0x00); // Index 2: Control Serials and Message Address for second board - not implemented, set to 0

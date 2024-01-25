@@ -75,6 +75,15 @@ private:
    */
   void changeBit(uint8_t& byte, uint8_t bit, bool value);
 
+    /**
+   * @brief Finds a suitable substitution character for a frame that is not the end-of-frame character 0xAA.
+   * 
+   * @param frame The frame data as a vector of bytes (uint8_t).
+   * @return uint8_t The substitution character that can be safely used in the frame.
+   * @throws std::runtime_error If no suitable substitution character is found.
+   */
+  uint8_t findSubstitutionCharacter(const std::vector<uint8_t>& frame);
+
   /**
    * @brief Replaces a specific character in a data vector with a substitution character.
    * 
@@ -88,9 +97,6 @@ private:
 
   /**
    * @brief Constructs a standard control message for the valve pack board.
-   * 
-   * This function builds a message according to the specified communication protocol.
-   * The message includes various control flags and data points, such as PWM settings and current set points.
    * 
    * @param pwm1_8 Control byte for PWM1-8 (defaults to 0x00, all off).
    * @param pwm9_16 Control byte for PWM9-16 (defaults to 0x00, all off).
