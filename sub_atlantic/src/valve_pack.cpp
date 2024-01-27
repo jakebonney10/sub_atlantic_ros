@@ -43,13 +43,10 @@ void ValvePackDriver::valveCmdCallback(const sub_atlantic_interfaces::msg::Valve
       current_set_point
   );
 
+  datagrams::Control control_msg;
+  control_msg.setPwmPair(0,1);
 
-  //datagrams::Control control_msg;
-  //control_msg.setPwmPair(0,1);
-
-  //auto serialized_message = control_msg.serialize();
-
-
+  auto serialized_message = control_msg.serialize();
   
   // TODO: Implement the logic for handling the ValveCmd message
 }

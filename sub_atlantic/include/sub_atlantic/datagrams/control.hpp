@@ -4,8 +4,7 @@
 #include "primatives.hpp"
 #include <vector>
 
-NS_HEAD
-
+DATAGRAMS_NS_HEAD
 
 /**
  * @brief Class for handling control messages.
@@ -84,7 +83,8 @@ public:
     void setPwmPair(uint8_t index, float scaled_value){
         setOpenLoop(index);
         u16 raw_value = scaled_value * 0x3FFF;
-        typePtr()->pwm_pair[index] = raw_value;
+        //typePtr()->pwm_pair[index] = raw_value;
+        typePtr()->pwm_pair[index].set(raw_value);
     }
 
     /**
@@ -101,5 +101,4 @@ protected:
 
 };
 
-
-NS_FOOT
+DATAGRAMS_NS_FOOT

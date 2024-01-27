@@ -1,5 +1,6 @@
 #pragma once
 
+#include "datagrams_defs.hpp"
 #include <stddef.h>
 #include <string.h>
 #include <stdexcept>
