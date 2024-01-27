@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t" kind="struct" language="C++" prot="public">
+    <compoundname>sub_atlantic::datagrams::Control::Control_t</compoundname>
+    <includes local="no">control.hpp</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1af3613786ecc9c1c473c8c87efaf2f461" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t sub_atlantic::datagrams::Control::Control_t::sub_char</definition>
+        <argsstring></argsstring>
+        <name>sub_char</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="13" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a8c2665b2a778ecbc12572002bc53e728" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t sub_atlantic::datagrams::Control::Control_t::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="14" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a31599b5108e7ba1f78717545cc748b53" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t sub_atlantic::datagrams::Control::Control_t::analogs</definition>
+        <argsstring></argsstring>
+        <name>analogs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="15" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1aef6c1bc36367fe6a2f07c8c2cefb958d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t sub_atlantic::datagrams::Control::Control_t::pwm_power</definition>
+        <argsstring></argsstring>
+        <name>pwm_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="16" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a46675b7f05af58b230fa7977f0f8fe7b" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t sub_atlantic::datagrams::Control::Control_t::swiched_outputs_power</definition>
+        <argsstring></argsstring>
+        <name>swiched_outputs_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="17" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a3db007ddaf10ea0b50f2dc2288ea3299" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesub__atlantic_1_1datagrams_1a7d984b77070b2b7720670b5dee84ed13" kindref="member">byte</ref></type>
+        <definition>byte sub_atlantic::datagrams::Control::Control_t::seccondary_supplies</definition>
+        <argsstring></argsstring>
+        <name>seccondary_supplies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="18" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a75a865296af4425f4044f4c2b333c361" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesub__atlantic_1_1datagrams_1a7d984b77070b2b7720670b5dee84ed13" kindref="member">byte</ref></type>
+        <definition>byte sub_atlantic::datagrams::Control::Control_t::open_loop_on</definition>
+        <argsstring></argsstring>
+        <name>open_loop_on</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="19" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1ab5e3b9c4e44677002b5e704602c2ea71" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1afae591b0e7d5b1a35c618b2624bb6d3e" kindref="member">BE_u16</ref></type>
+        <definition>BE_u16 sub_atlantic::datagrams::Control::Control_t::pwm_pair[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>pwm_pair</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="20" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a5c24807175883ccae46821765fa76ba5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t sub_atlantic::datagrams::Control::Control_t::rs232_channel</definition>
+        <argsstring></argsstring>
+        <name>rs232_channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="21" column="21" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>sub_atlantic::datagrams::Control::Control_t</label>
+        <link refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pwm_pair</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; u16 &gt;</label>
+        <link refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative"/>
+      </node>
+    </collaborationgraph>
+    <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="12" column="5" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="12" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a31599b5108e7ba1f78717545cc748b53" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>analogs</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a8c2665b2a778ecbc12572002bc53e728" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>id</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a75a865296af4425f4044f4c2b333c361" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>open_loop_on</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1ab5e3b9c4e44677002b5e704602c2ea71" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>pwm_pair</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1aef6c1bc36367fe6a2f07c8c2cefb958d" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>pwm_power</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a5c24807175883ccae46821765fa76ba5" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>rs232_channel</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a3db007ddaf10ea0b50f2dc2288ea3299" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>seccondary_supplies</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1af3613786ecc9c1c473c8c87efaf2f461" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>sub_char</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a46675b7f05af58b230fa7977f0f8fe7b" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control::Control_t</scope><name>swiched_outputs_power</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

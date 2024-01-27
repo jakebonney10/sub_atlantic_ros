@@ -1,5 +1,7 @@
-#ifndef VALVE_PACK_HPP
-#define VALVE_PACK_HPP
+#pragma once 
+
+#include "package_defs.hpp"
+//#include "datagrams/control.hpp"
 
 #include <string>
 #include <cstdint>
@@ -12,6 +14,7 @@
 #include "sub_atlantic_interfaces/msg/valve_pack_cmd.hpp"
 #include "sub_atlantic_interfaces/msg/valve_pack_state.hpp"
 
+NS_HEAD
 /**
  * @brief Class for controlling a valve pack using ROS2 and serial communication.
  */
@@ -23,7 +26,7 @@ public:
    */
   ValvePackDriver();
 
-private:
+protected:
   boost::asio::io_service io;
   boost::asio::serial_port serial;
   rclcpp::Subscription<sub_atlantic_interfaces::msg::ValveCmd>::SharedPtr valve_pack_subscription_;
@@ -106,6 +109,4 @@ private:
   std::vector<uint8_t> standardControlMsg(uint8_t pwm1_8 = 0x00, uint8_t pwm9_16 = 0x00, uint8_t pwm_open_loop = 0x00);
   
 };
-
-#endif // VALVE_PACK_HPP
-
+NS_FOOT

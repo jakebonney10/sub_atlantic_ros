@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="valve__pack_8cpp" kind="file" language="C++">
+    <compoundname>valve_pack.cpp</compoundname>
+    <includes refid="valve__pack_8hpp" local="no">sub_atlantic/valve_pack.hpp</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>sub_atlantic/valve_pack.hpp</label>
+        <link refid="valve__pack_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>cstdint</label>
+      </node>
+      <node id="20">
+        <label>sub_atlantic_interfaces/msg/valve_pack_state.hpp</label>
+      </node>
+      <node id="6">
+        <label>package_defs</label>
+      </node>
+      <node id="10">
+        <label>stdexcept</label>
+      </node>
+      <node id="12">
+        <label>string</label>
+      </node>
+      <node id="4">
+        <label>datagrams/control.hpp</label>
+        <link refid="control_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>rclcpp/rclcpp.hpp</label>
+      </node>
+      <node id="1">
+        <label>sub_atlantic/src/valve_pack.cpp</label>
+        <link refid="valve__pack_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+      <node id="15">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="5">
+        <label>datagrams_defs.hpp</label>
+        <link refid="datagrams__defs_8hpp"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>string.h</label>
+      </node>
+      <node id="16">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="3">
+        <label>package_defs.hpp</label>
+        <link refid="package__defs_8hpp"/>
+      </node>
+      <node id="11">
+        <label>vector</label>
+      </node>
+      <node id="18">
+        <label>sub_atlantic_interfaces/msg/valve_cmd.hpp</label>
+      </node>
+      <node id="7">
+        <label>primatives.hpp</label>
+        <link refid="primatives_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>sub_atlantic_interfaces/msg/valve_pack_cmd.hpp</label>
+      </node>
+      <node id="14">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#include<sp/>&lt;<ref refid="valve__pack_8hpp" kindref="compound">sub_atlantic/valve_pack.hpp</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="datagrams__defs_8hpp_1a65bbc1cef163319f4e880bfebffd5098" kindref="member">NS_HEAD</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">ValvePackDriver::ValvePackDriver()<sp/>:<sp/>Node(</highlight><highlight class="stringliteral">&quot;valve_pack_driver&quot;</highlight><highlight class="normal">),<sp/>serial(io)<sp/>{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>parameters</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/>initializeParameters();</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>Set<sp/>up<sp/>serial<sp/>connection</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Subscribe<sp/>to<sp/>ValvePack<sp/>messages</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>valve_pack_subscription_<sp/>=<sp/>this-&gt;create_subscription&lt;sub_atlantic_interfaces::msg::ValveCmd&gt;(</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;valve_topic&quot;</highlight><highlight class="normal">,<sp/>10,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>std::bind(&amp;ValvePackDriver::valveCmdCallback,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>std::placeholders::_1));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/>RCLCPP_INFO(this-&gt;get_logger(),<sp/></highlight><highlight class="stringliteral">&quot;ValvePackDriver<sp/>initialized&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ValvePackDriver::initializeParameters()<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/>this-&gt;declare_parameter&lt;int&gt;(</highlight><highlight class="stringliteral">&quot;baud_rate&quot;</highlight><highlight class="normal">,<sp/>38400);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/>this-&gt;declare_parameter&lt;std::string&gt;(</highlight><highlight class="stringliteral">&quot;serial_port&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;/dev/ttyUSB0&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/>this-&gt;declare_parameter&lt;int&gt;(</highlight><highlight class="stringliteral">&quot;update_rate_hz&quot;</highlight><highlight class="normal">,<sp/>40);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/>this-&gt;declare_parameter&lt;int&gt;(</highlight><highlight class="stringliteral">&quot;connect_timeout_s&quot;</highlight><highlight class="normal">,<sp/>10);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>baud_rate<sp/>=<sp/>this-&gt;get_parameter(</highlight><highlight class="stringliteral">&quot;baud_rate&quot;</highlight><highlight class="normal">).as_int();</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/>std::string<sp/>serial_port<sp/>=<sp/>this-&gt;get_parameter(</highlight><highlight class="stringliteral">&quot;serial_port&quot;</highlight><highlight class="normal">).as_string();</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>update_rate<sp/>=<sp/>this-&gt;get_parameter(</highlight><highlight class="stringliteral">&quot;update_rate_hz&quot;</highlight><highlight class="normal">).as_int();</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>connect_timeout<sp/>=<sp/>this-&gt;get_parameter(</highlight><highlight class="stringliteral">&quot;connect_timeout_s&quot;</highlight><highlight class="normal">).as_int();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ValvePackDriver::valveCmdCallback(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sub_atlantic_interfaces::msg::ValveCmd::SharedPtr<sp/>msg)<sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>int32_t<sp/>valve_id<sp/>=<sp/>msg-&gt;valve_id;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_on<sp/>=<sp/>msg-&gt;is_on;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_open_loop_control<sp/>=<sp/>msg-&gt;is_open_loop_control;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>current_set_point<sp/>=<sp/>msg-&gt;current_set_point;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/>datagrams::Control<sp/>control_msg;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>control_msg.setPwmPair(0,1);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>serialized_message<sp/>=<sp/>control_msg.serialize();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>Implement<sp/>the<sp/>logic<sp/>for<sp/>handling<sp/>the<sp/>ValveCmd<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>ValvePackDriver::connectSerial(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>baud_rate,<sp/>std::string<sp/>serial_port)<sp/>{</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">try</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>serial.open(serial_port);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>serial.set_option(boost::asio::serial_port_base::baud_rate(baud_rate));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>serial.set_option(boost::asio::serial_port_base::parity(boost::asio::serial_port_base::parity::none));</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>serial.set_option(boost::asio::serial_port_base::stop_bits(boost::asio::serial_port_base::stop_bits::one));</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>serial.set_option(boost::asio::serial_port_base::character_size(8));</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">catch</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>boost::system::system_error&amp;<sp/>e)<sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>RCLCPP_ERROR(this-&gt;get_logger(),<sp/></highlight><highlight class="stringliteral">&quot;Serial<sp/>Error:<sp/>%s&quot;</highlight><highlight class="normal">,<sp/>e.what());</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal">std::uint16_t<sp/>ValvePackDriver::calculateCRC16(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;unsigned<sp/>char&gt;&amp;<sp/>data)<sp/>{</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>boost::crc_16_type<sp/>crcComputer;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/>crcComputer.process_bytes(data.data(),<sp/>data.size()<sp/>-<sp/>3);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>crcComputer.checksum();</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ValvePackDriver::splitBytes(std::uint16_t<sp/>crc,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>high_byte,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>low_byte)<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/>high_byte<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">((crc<sp/>&gt;&gt;<sp/>8)<sp/>&amp;<sp/>0xFF);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/>low_byte<sp/>=<sp/></highlight><highlight class="keyword">static_cast&lt;</highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(crc<sp/>&amp;<sp/>0xFF);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ValvePackDriver::changeBit(uint8_t&amp;<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">,<sp/>uint8_t<sp/>bit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value)<sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(value)<sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>|=<sp/>(1<sp/>&lt;&lt;<sp/>bit);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/>&amp;=<sp/>~(1<sp/>&lt;&lt;<sp/>bit);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal">uint8_t<sp/>ValvePackDriver::findSubstitutionCharacter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;&amp;<sp/>frame)<sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>possibleSubChar<sp/>=<sp/>0x00;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(possibleSubChar<sp/>!=<sp/>0xAA)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(std::find(frame.begin(),<sp/>frame.end(),<sp/>possibleSubChar)<sp/>==<sp/>frame.end())<sp/>{<sp/></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>possibleSubChar;<sp/></highlight><highlight class="comment">//<sp/>Found<sp/>a<sp/>suitable<sp/>substitution<sp/>character</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>possibleSubChar++;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(possibleSubChar<sp/>!=<sp/>0x00);<sp/></highlight><highlight class="comment">//<sp/>When<sp/>possibleSubChar<sp/>wraps<sp/>around<sp/>to<sp/>0x00,<sp/>the<sp/>loop<sp/>ends</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/>std::runtime_error(</highlight><highlight class="stringliteral">&quot;No<sp/>suitable<sp/>substitution<sp/>character<sp/>found&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>ValvePackDriver::replaceSubstitutionCharacter(std::vector&lt;unsigned<sp/>char&gt;&amp;<sp/>data,<sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>characterToReplace,<sp/></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>substitutionCharacter)<sp/>{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/>std::replace(data.begin(),<sp/>data.end(),<sp/>characterToReplace,<sp/>substitutionCharacter);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">std::vector&lt;uint8_t&gt;<sp/>ValvePackDriver::standardControlMsg(uint8_t<sp/>pwm1_8,<sp/>uint8_t<sp/>pwm9_16,<sp/>uint8_t<sp/>pwm_open_loop)<sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>msg;<sp/></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>0:<sp/>Substitution<sp/>Character<sp/>-<sp/>TODO:<sp/>placeholder<sp/>for<sp/>now</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/>msg.push_back(0x01);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>1:<sp/>Message<sp/>ID<sp/>-<sp/>always<sp/>0x01<sp/>for<sp/>standard<sp/>control<sp/>message</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>2:<sp/>Control<sp/>Serials<sp/>and<sp/>Message<sp/>Address<sp/>for<sp/>second<sp/>board<sp/>-<sp/>not<sp/>implemented,<sp/>set<sp/>to<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>3:<sp/>Control<sp/>Analogues<sp/>-<sp/>not<sp/>implemented,<sp/>set<sp/>to<sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/>msg.push_back(pwm1_8);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>4:<sp/>PWM1-8<sp/>On/Off,<sp/>0x00<sp/>=<sp/>all<sp/>off</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/>msg.push_back(pwm9_16);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>5:<sp/>PWM9-16<sp/>On/Off,<sp/>0x00<sp/>=<sp/>all<sp/>off</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>6:<sp/>Switched<sp/>outputs<sp/>DOUT1-8<sp/>On/Off</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>7:<sp/>Switched<sp/>outputs<sp/>DOUT1-8<sp/>On/Off</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>8:<sp/>Secondary<sp/>supplies<sp/>SSUP1-4<sp/>On/Off</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/>msg.push_back(pwm_open_loop);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>9:<sp/>PWM1-16<sp/>Open<sp/>Loop<sp/>On/Off,<sp/>2<sp/>valves<sp/>per<sp/>bit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Index<sp/>10-25:<sp/>Current<sp/>Set<sp/>Points<sp/>for<sp/>PWM<sp/>pairs<sp/>-<sp/>Index<sp/>10:<sp/>1-2<sp/>(upper<sp/>byte),<sp/>Index<sp/>11:<sp/>1-2<sp/>(lower<sp/>byte),<sp/>etc.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>16;<sp/>i++)<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>TODO:<sp/>placeholder,<sp/>need<sp/>to<sp/>get<sp/>16-bit<sp/>current<sp/>set-point<sp/>and<sp/>split<sp/>into<sp/>upper<sp/>and<sp/>lower<sp/>bytes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>26:<sp/>RS232<sp/>Channel<sp/>2<sp/>Data<sp/>To<sp/>Transmit,<sp/>not<sp/>implemented,<sp/>set<sp/>to<sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>27:<sp/>CAN<sp/>1<sp/>Data<sp/>To<sp/>Transmit,<sp/>not<sp/>implemented,<sp/>set<sp/>to<sp/>0x00</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>28:<sp/>CAN<sp/>2<sp/>Data<sp/>To<sp/>Transmit,<sp/>not<sp/>implemented,<sp/>set<sp/>to<sp/>0x00<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>29:<sp/>CRC-16<sp/>upper<sp/>byte,<sp/>TODO:<sp/>placeholder,<sp/>calculate<sp/>actual<sp/>CRC</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/>msg.push_back(0x00);<sp/></highlight><highlight class="comment">//<sp/>Index<sp/>30:<sp/>CRC-16<sp/>lower<sp/>byte</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/>msg.push_back(0xAA);<sp/></highlight><highlight class="comment">//<sp/>End<sp/>of<sp/>Frame<sp/>identifier</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>msg;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><ref refid="datagrams__defs_8hpp_1ada1245f63d8402deab948957646cb61d" kindref="member">NS_FOOT</ref></highlight></codeline>
+    </programlisting>
+    <location file="sub_atlantic/src/valve_pack.cpp"/>
+  </compounddef>
+</doxygen>

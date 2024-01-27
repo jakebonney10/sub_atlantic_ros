@@ -1,5 +1,7 @@
 #include <sub_atlantic/valve_pack.hpp>
 
+NS_HEAD
+
 ValvePackDriver::ValvePackDriver() : Node("valve_pack_driver"), serial(io) {
   // Initialize parameters
   initializeParameters();
@@ -20,20 +22,37 @@ void ValvePackDriver::initializeParameters() {
   this->declare_parameter<int>("update_rate_hz", 40);
   this->declare_parameter<int>("connect_timeout_s", 10);
 
-  int baud_rate = this->get_parameter("baud_rate").as_int();
-  std::string serial_port = this->get_parameter("serial_port").as_string();
-  int update_rate = this->get_parameter("update_rate_hz").as_int();
-  int connect_timeout = this->get_parameter("connect_timeout_s").as_int();
+  //int baud_rate = this->get_parameter("baud_rate").as_int();
+  //std::string serial_port = this->get_parameter("serial_port").as_string();
+  //int update_rate = this->get_parameter("update_rate_hz").as_int();
+  //int connect_timeout = this->get_parameter("connect_timeout_s").as_int();
 }
 
 void ValvePackDriver::valveCmdCallback(const sub_atlantic_interfaces::msg::ValveCmd::SharedPtr msg) {
-  std_msgs::Header header = msg->header;
   int32_t valve_id = msg->valve_id;
   bool is_on = msg->is_on;
   bool is_open_loop_control = msg->is_open_loop_control;
   double current_set_point = msg->current_set_point;
   
+  RCLCPP_INFO(
+      this->get_logger(), 
+      "Received Valve Command - Valve ID: %d, Is On: %s, Is Open Loop Control: %s, Current Set Point: %f", 
+      valve_id, 
+      is_on ? "true" : "false", 
+      is_open_loop_control ? "true" : "false", 
+      current_set_point
+  );
+
+
+  //datagrams::Control control_msg;
+  //control_msg.setPwmPair(0,1);
+
+  //auto serialized_message = control_msg.serialize();
+
+
+  
   // TODO: Implement the logic for handling the ValveCmd message
+}
 
 bool ValvePackDriver::connectSerial(int baud_rate, std::string serial_port) {
   try {
@@ -115,3 +134,5 @@ std::vector<uint8_t> ValvePackDriver::standardControlMsg(uint8_t pwm1_8, uint8_t
   return msg;
 
 }
+
+NS_FOOT

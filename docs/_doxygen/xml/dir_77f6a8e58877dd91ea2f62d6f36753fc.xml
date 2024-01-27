@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_77f6a8e58877dd91ea2f62d6f36753fc" kind="dir">
+    <compoundname>sub_atlantic</compoundname>
+    <innerdir refid="dir_695ee6775b64f12334916cdffbafed69">sub_atlantic/include</innerdir>
+    <innerdir refid="dir_89454b22300418602f4926b4d602709d">sub_atlantic/nodes</innerdir>
+    <innerdir refid="dir_c67ba40bcedd837e73b94824b1ea5f4d">sub_atlantic/src</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sub_atlantic/"/>
+  </compounddef>
+</doxygen>

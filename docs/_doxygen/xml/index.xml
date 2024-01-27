@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative" kind="struct"><name>sub_atlantic::datagrams::primitives::BigEndianPrimative</name>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a3e6aeecf10a591990172fac8a7b32a37" kind="variable"><name>raw</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1af876a93372924f1f8bffe2b8e7b507e5" kind="function"><name>get</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a005726d91d773ebe42a3ed478bf646a8" kind="function"><name>set</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1ace96618e6bff7df58d5caf440b4b1370" kind="function"><name>operator int8_t</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a8cad0ad8807cb4ed4324305abda03ff9" kind="function"><name>operator int16_t</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a5060ec0f2a8e572f72e048b67949eead" kind="function"><name>operator int32_t</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a640b8ef844853cd8da6f95d48d10f997" kind="function"><name>operator uint8_t</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a343f763c17057bdb8834226abfdf99d1" kind="function"><name>operator uint16_t</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a8585612ca1eccaeaae67215313ce61a9" kind="function"><name>operator uint32_t</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a98b6e7656ecfd3c7e3a732d91fe9b7a2" kind="function"><name>operator float</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a5259fefbe00461eaa296dbf547dd3e28" kind="function"><name>operator double</name></member>
+  </compound>
+  <compound refid="classsub__atlantic_1_1datagrams_1_1Control" kind="class"><name>sub_atlantic::datagrams::Control</name>
+    <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a3eacfc23de16854ae4fe9ef4694a4a52" kind="variable"><name>data_vect</name></member>
+    <member refid="classsub__atlantic_1_1datagrams_1_1Control_1ab372a53a49ce6205078a2be625127639" kind="function"><name>Control</name></member>
+    <member refid="classsub__atlantic_1_1datagrams_1_1Control_1abcce6e4edd60007eb59af3e7b2b86d8b" kind="function"><name>typePtr</name></member>
+    <member refid="classsub__atlantic_1_1datagrams_1_1Control_1ad2816fab20203cc51de01504cc06c287" kind="function"><name>operator-&gt;</name></member>
+    <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a362c40f0a5758815891a5f1909d2213e" kind="function"><name>setOpenLoop</name></member>
+    <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a0d3a2d6069b942e85cbb28f28c257588" kind="function"><name>setPwmPair</name></member>
+    <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a71dfda100465fbdb106b8c54e239e2f6" kind="function"><name>serialize</name></member>
+  </compound>
+  <compound refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t" kind="struct"><name>sub_atlantic::datagrams::Control::Control_t</name>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1af3613786ecc9c1c473c8c87efaf2f461" kind="variable"><name>sub_char</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a8c2665b2a778ecbc12572002bc53e728" kind="variable"><name>id</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a31599b5108e7ba1f78717545cc748b53" kind="variable"><name>analogs</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1aef6c1bc36367fe6a2f07c8c2cefb958d" kind="variable"><name>pwm_power</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a46675b7f05af58b230fa7977f0f8fe7b" kind="variable"><name>swiched_outputs_power</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a3db007ddaf10ea0b50f2dc2288ea3299" kind="variable"><name>seccondary_supplies</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a75a865296af4425f4044f4c2b333c361" kind="variable"><name>open_loop_on</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1ab5e3b9c4e44677002b5e704602c2ea71" kind="variable"><name>pwm_pair</name></member>
+    <member refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t_1a5c24807175883ccae46821765fa76ba5" kind="variable"><name>rs232_channel</name></member>
+  </compound>
+  <compound refid="classsub__atlantic_1_1ValvePackDriver" kind="class"><name>sub_atlantic::ValvePackDriver</name>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1ab77b58033abf4bc6d8d93ab4098f7784" kind="variable"><name>io</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1a48c7aafc7079532d8c0ed8c0eaa032f2" kind="variable"><name>serial</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1ac0d2f922e38dab17660a54c96ad32b64" kind="variable"><name>valve_pack_subscription_</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1a2ee13c992ff0f261cffa3a9cc5fc348e" kind="function"><name>ValvePackDriver</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1ade64443fd056bd3ca176168d24f133c2" kind="function"><name>initializeParameters</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1aeb36d62c67b751933353df048c6dbb20" kind="function"><name>valveCmdCallback</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1a400f3072fb38f50c108ddd60a13d915d" kind="function"><name>connectSerial</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1a6d5b62ab2d0f3cb42b6cd9c49f26d2a0" kind="function"><name>calculateCRC16</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1a7a0c69c185a1c72e74213790ef094fec" kind="function"><name>splitBytes</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1a8910d84d7d117cfdd469430f5fad17c0" kind="function"><name>changeBit</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1aaa870ad816f20c5413d8819a58b7b4ba" kind="function"><name>findSubstitutionCharacter</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1aa77e72087e7e39a04f27399057dbd08a" kind="function"><name>replaceSubstitutionCharacter</name></member>
+    <member refid="classsub__atlantic_1_1ValvePackDriver_1ae498411b30c872a5e9a6cd6882265310" kind="function"><name>standardControlMsg</name></member>
+  </compound>
+  <compound refid="namespacerclcpp" kind="namespace"><name>rclcpp</name>
+  </compound>
+  <compound refid="namespacesub__atlantic" kind="namespace"><name>sub_atlantic</name>
+  </compound>
+  <compound refid="namespacesub__atlantic_1_1datagrams" kind="namespace"><name>sub_atlantic::datagrams</name>
+    <member refid="namespacesub__atlantic_1_1datagrams_1a7d984b77070b2b7720670b5dee84ed13" kind="typedef"><name>byte</name></member>
+  </compound>
+  <compound refid="namespacesub__atlantic_1_1datagrams_1_1primitives" kind="namespace"><name>sub_atlantic::datagrams::primitives</name>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1ab958f3da7d4941c943cb6ee7cc0849c3" kind="typedef"><name>u8</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a92684599f1370142d74f3bb4e712b86d" kind="typedef"><name>u16</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a976b1e07b65f62a3c37516ddc85ea27e" kind="typedef"><name>u32</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1aa3ff52496ae0478b69318c44a6e8eb5a" kind="typedef"><name>s8</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a61d363d305bbc2c56d6ed804d12e4a84" kind="typedef"><name>s16</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a0a7b1d0709cf19cd97b7da6957b5dc8c" kind="typedef"><name>s32</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a7e3c300ff834ff4af1a675480caaed5f" kind="typedef"><name>f32</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a0d78bc994ad1ccb9405ee1964096c280" kind="typedef"><name>f64</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1ab9ac407396e07c097028e5662d6900bc" kind="typedef"><name>BE_u8</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1afae591b0e7d5b1a35c618b2624bb6d3e" kind="typedef"><name>BE_u16</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1ab0a1029415ce82c27d94450d94a17614" kind="typedef"><name>BE_u32</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a1c322dad2ad16653a10e6393258cb677" kind="typedef"><name>BE_s8</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a93c9b8f639aa89df3def02a917cfaf04" kind="typedef"><name>BE_s16</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a078de25a3b47735be35503a42652379f" kind="typedef"><name>BE_s32</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a3af4adebaa924d1070babd1c3297e9de" kind="typedef"><name>BE_f32</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a3ef01640d5a57cf95fd39a02c4abbed4" kind="typedef"><name>BE_f64</name></member>
+    <member refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a6042d1317b361c6678e340e737309657" kind="function"><name>revPrimitive</name></member>
+  </compound>
+  <compound refid="1__custom__page_8md" kind="file"><name>1_custom_page.md</name>
+  </compound>
+  <compound refid="2__api_8md" kind="file"><name>2_api.md</name>
+  </compound>
+  <compound refid="README_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="control_8hpp" kind="file"><name>control.hpp</name>
+  </compound>
+  <compound refid="datagrams__defs_8hpp" kind="file"><name>datagrams_defs.hpp</name>
+    <member refid="datagrams__defs_8hpp_1a65bbc1cef163319f4e880bfebffd5098" kind="define"><name>NS_HEAD</name></member>
+    <member refid="datagrams__defs_8hpp_1ada1245f63d8402deab948957646cb61d" kind="define"><name>NS_FOOT</name></member>
+  </compound>
+  <compound refid="primatives_8hpp" kind="file"><name>primatives.hpp</name>
+  </compound>
+  <compound refid="package__defs_8hpp" kind="file"><name>package_defs.hpp</name>
+    <member refid="package__defs_8hpp_1a65bbc1cef163319f4e880bfebffd5098" kind="define"><name>NS_HEAD</name></member>
+    <member refid="package__defs_8hpp_1ada1245f63d8402deab948957646cb61d" kind="define"><name>NS_FOOT</name></member>
+    <member refid="package__defs_8hpp_1a957c7aa1b93fda99c4c624d371df2fc0" kind="define"><name>PSI2PA</name></member>
+  </compound>
+  <compound refid="valve__pack_8hpp" kind="file"><name>valve_pack.hpp</name>
+  </compound>
+  <compound refid="valve__pack__node_8cpp" kind="file"><name>valve_pack_node.cpp</name>
+    <member refid="valve__pack__node_8cpp_1a3c04138a5bfe5d72780bb7e82a18e627" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="valve__pack_8cpp" kind="file"><name>valve_pack.cpp</name>
+  </compound>
+  <compound refid="md_docs_1_custom_page" kind="page"><name>md_docs_1_custom_page</name>
+  </compound>
+  <compound refid="md_docs_2_api" kind="page"><name>md_docs_2_api</name>
+  </compound>
+  <compound refid="dir_80910494584febc60f41f9dc61bcfeae" kind="dir"><name>sub_atlantic/include/sub_atlantic/datagrams</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_695ee6775b64f12334916cdffbafed69" kind="dir"><name>sub_atlantic/include</name>
+  </compound>
+  <compound refid="dir_89454b22300418602f4926b4d602709d" kind="dir"><name>sub_atlantic/nodes</name>
+  </compound>
+  <compound refid="dir_c67ba40bcedd837e73b94824b1ea5f4d" kind="dir"><name>sub_atlantic/src</name>
+  </compound>
+  <compound refid="dir_77f6a8e58877dd91ea2f62d6f36753fc" kind="dir"><name>sub_atlantic</name>
+  </compound>
+  <compound refid="dir_ec79d964ea573bff3a14238ee5464a5f" kind="dir"><name>sub_atlantic/include/sub_atlantic</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="1__custom__page_8md" kind="file" language="Markdown">
+    <compoundname>1_custom_page.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>Creating<sp/>Custom<sp/>Pages</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>add<sp/>custom<sp/>pages<sp/>to<sp/>your<sp/>doccumentation,<sp/>either<sp/>by<sp/>adding<sp/>them<sp/>to<sp/>the<sp/>root<sp/>directory<sp/>(eg<sp/>license<sp/>and<sp/>contributing<sp/>pages)<sp/>or<sp/>by<sp/>adding<sp/>markdown<sp/>files<sp/>to<sp/>the<sp/>&quot;docs&quot;<sp/>directory.<sp/><sp/><sp/>Any<sp/>page<sp/>you<sp/>add<sp/>to<sp/>these<sp/>locations<sp/>will<sp/>automatically<sp/>apper<sp/>in<sp/>the<sp/>Doxygen<sp/>documentation.<sp/><sp/>These<sp/>pages<sp/>will<sp/>appear<sp/>in<sp/>the<sp/>sidebar<sp/>in<sp/>alphabetical<sp/>order<sp/>according<sp/>to<sp/>page<sp/>name.<sp/><sp/>If<sp/>you<sp/>are<sp/>particular<sp/>about<sp/>the<sp/>order<sp/>you<sp/>can<sp/>manually<sp/>place<sp/>a<sp/>number<sp/>in<sp/>front<sp/>of<sp/>the<sp/>filename<sp/>(eg<sp/>1_custom_page.md)</highlight></codeline>
+    </programlisting>
+    <location file="docs/1_custom_page.md"/>
+  </compounddef>
+</doxygen>

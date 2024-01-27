@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacesub__atlantic_1_1datagrams" kind="namespace" language="C++">
+    <compoundname>sub_atlantic::datagrams</compoundname>
+    <innerclass refid="classsub__atlantic_1_1datagrams_1_1Control" prot="public">sub_atlantic::datagrams::Control</innerclass>
+    <innernamespace refid="namespacesub__atlantic_1_1datagrams_1_1primitives">sub_atlantic::datagrams::primitives</innernamespace>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespacesub__atlantic_1_1datagrams_1a7d984b77070b2b7720670b5dee84ed13" prot="public" static="no">
+        <type>uint8_t</type>
+        <definition>using sub_atlantic::datagrams::byte = typedef uint8_t</definition>
+        <argsstring></argsstring>
+        <name>byte</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/datagrams_defs.hpp" line="14" column="1" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/datagrams_defs.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="7" column="22"/>
+  </compounddef>
+</doxygen>

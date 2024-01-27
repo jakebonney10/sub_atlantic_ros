@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="package__defs_8hpp" kind="file" language="C++">
+    <compoundname>package_defs.hpp</compoundname>
+    <includedby refid="valve__pack_8hpp" local="yes">sub_atlantic/include/sub_atlantic/valve_pack.hpp</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>sub_atlantic/include/sub_atlantic/valve_pack.hpp</label>
+        <link refid="valve__pack_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sub_atlantic/src/valve_pack.cpp</label>
+        <link refid="valve__pack_8cpp"/>
+      </node>
+      <node id="3">
+        <label>sub_atlantic/nodes/valve_pack_node.cpp</label>
+        <link refid="valve__pack__node_8cpp"/>
+      </node>
+      <node id="1">
+        <label>sub_atlantic/include/sub_atlantic/package_defs.hpp</label>
+        <link refid="package__defs_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacesub__atlantic">sub_atlantic</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="package__defs_8hpp_1a65bbc1cef163319f4e880bfebffd5098" prot="public" static="no">
+        <name>NS_HEAD</name>
+        <initializer>  namespace sub_atlantic {</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Namespace stuff </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/package_defs.hpp" line="8" column="9" bodyfile="sub_atlantic/include/sub_atlantic/package_defs.hpp" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="package__defs_8hpp_1ada1245f63d8402deab948957646cb61d" prot="public" static="no">
+        <name>NS_FOOT</name>
+        <initializer>  }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/package_defs.hpp" line="11" column="9" bodyfile="sub_atlantic/include/sub_atlantic/package_defs.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="package__defs_8hpp_1a957c7aa1b93fda99c4c624d371df2fc0" prot="public" static="no">
+        <name>PSI2PA</name>
+        <initializer>6894.75729</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/package_defs.hpp" line="15" column="9" bodyfile="sub_atlantic/include/sub_atlantic/package_defs.hpp" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">/*#define<sp/>NS_HEAD<sp/><sp/>\</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/>namespace<sp/>CMAKE_PACKAGE_NAME<sp/>{<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NS_HEAD<sp/><sp/>\</highlight></codeline>
+<codeline lineno="9"><highlight class="preprocessor"><sp/><sp/>namespace<sp/>sub_atlantic<sp/>{</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NS_FOOT<sp/><sp/>\</highlight></codeline>
+<codeline lineno="12"><highlight class="preprocessor"><sp/><sp/>}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><ref refid="package__defs_8hpp_1a65bbc1cef163319f4e880bfebffd5098" kindref="member">NS_HEAD</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>PSI2PA<sp/>6894.75729</highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor">NS_FOOT</highlight></codeline>
+    </programlisting>
+    <location file="sub_atlantic/include/sub_atlantic/package_defs.hpp"/>
+  </compounddef>
+</doxygen>

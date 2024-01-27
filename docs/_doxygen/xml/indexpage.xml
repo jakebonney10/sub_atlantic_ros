@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>sub_atlantic_ros</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1md_README"/></para>
+<sect1 id="index_1autotoc_md3">
+<title>About</title>
+</sect1>
+<sect1 id="index_1autotoc_md4">
+<title>Installation</title>
+<sect2 id="index_1autotoc_md5">
+<title>Begin by getting the package the dependencies</title>
+</sect2>
+<sect2 id="index_1autotoc_md6">
+<title>Compile</title>
+<para>Finally you can compile the package from the root directory of your ros workspace</para>
+<para><programlisting><codeline><highlight class="normal">colcon<sp/>build</highlight></codeline>
+</programlisting></para>
+</sect2>
+</sect1>
+<sect1 id="index_1autotoc_md7">
+<title>Getting Started</title>
+</sect1>
+<sect1 id="index_1autotoc_md8">
+<title>Additional Utilities</title>
+</sect1>
+<sect1 id="index_1autotoc_md9">
+<title>Topics</title>
+</sect1>
+<sect1 id="index_1autotoc_md10">
+<title>Parameters</title>
+</sect1>
+<sect1 id="index_1autotoc_md11">
+<title>Credits</title>
+</sect1>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

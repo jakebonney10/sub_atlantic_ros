@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_docs_2_api" kind="page">
+    <compoundname>md_docs_2_api</compoundname>
+    <title>API Usage</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>If you have an API for your package it is probably best to give some high-level instructions here rather than just relying on the automatically generated documentation.</para>
+<para><itemizedlist>
+<listitem><para>Give an overview of how you intend the api to be used.</para>
+</listitem><listitem><para>Give a few examples</para>
+</listitem><listitem><para>Most importantly! Give some &quot;hello world&quot; examples! </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="docs/2_api.md"/>
+  </compounddef>
+</doxygen>

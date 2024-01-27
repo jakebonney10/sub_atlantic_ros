@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespacesub__atlantic" kind="namespace" language="C++">
+    <compoundname>sub_atlantic</compoundname>
+    <innerclass refid="classsub__atlantic_1_1ValvePackDriver" prot="public">sub_atlantic::ValvePackDriver</innerclass>
+    <innernamespace refid="namespacesub__atlantic_1_1datagrams">sub_atlantic::datagrams</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="7" column="1"/>
+  </compounddef>
+</doxygen>

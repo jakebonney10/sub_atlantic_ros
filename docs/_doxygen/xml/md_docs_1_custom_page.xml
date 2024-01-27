@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="md_docs_1_custom_page" kind="page">
+    <compoundname>md_docs_1_custom_page</compoundname>
+    <title>Creating Custom Pages</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>You can add custom pages to your doccumentation, either by adding them to the root directory (eg license and contributing pages) or by adding markdown files to the &quot;docs&quot; directory. Any page you add to these locations will automatically apper in the Doxygen documentation. These pages will appear in the sidebar in alphabetical order according to page name. If you are particular about the order you can manually place a number in front of the filename (eg <ref refid="1__custom__page_8md" kindref="compound">1_custom_page.md</ref>) </para>
+    </detaileddescription>
+    <location file="docs/1_custom_page.md"/>
+  </compounddef>
+</doxygen>

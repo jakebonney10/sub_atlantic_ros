@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="valve__pack_8hpp" kind="file" language="C++">
+    <compoundname>valve_pack.hpp</compoundname>
+    <includes refid="package__defs_8hpp" local="yes">package_defs.hpp</includes>
+    <includes refid="control_8hpp" local="yes">datagrams/control.hpp</includes>
+    <includes local="no">string</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">boost/asio.hpp</includes>
+    <includes local="no">boost/crc.hpp</includes>
+    <includes local="yes">rclcpp/rclcpp.hpp</includes>
+    <includes local="yes">sub_atlantic_interfaces/msg/valve_cmd.hpp</includes>
+    <includes local="yes">sub_atlantic_interfaces/msg/valve_pack_cmd.hpp</includes>
+    <includes local="yes">sub_atlantic_interfaces/msg/valve_pack_state.hpp</includes>
+    <includedby refid="valve__pack__node_8cpp" local="no">sub_atlantic/nodes/valve_pack_node.cpp</includedby>
+    <includedby refid="valve__pack_8cpp" local="no">sub_atlantic/src/valve_pack.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>sub_atlantic/include/sub_atlantic/valve_pack.hpp</label>
+        <link refid="valve__pack_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>cstdint</label>
+      </node>
+      <node id="19">
+        <label>sub_atlantic_interfaces/msg/valve_pack_state.hpp</label>
+      </node>
+      <node id="5">
+        <label>package_defs</label>
+      </node>
+      <node id="9">
+        <label>stdexcept</label>
+      </node>
+      <node id="11">
+        <label>string</label>
+      </node>
+      <node id="3">
+        <label>datagrams/control.hpp</label>
+        <link refid="control_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>rclcpp/rclcpp.hpp</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+      <node id="14">
+        <label>boost/asio.hpp</label>
+      </node>
+      <node id="4">
+        <label>datagrams_defs.hpp</label>
+        <link refid="datagrams__defs_8hpp"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>string.h</label>
+      </node>
+      <node id="15">
+        <label>boost/crc.hpp</label>
+      </node>
+      <node id="2">
+        <label>package_defs.hpp</label>
+        <link refid="package__defs_8hpp"/>
+      </node>
+      <node id="10">
+        <label>vector</label>
+      </node>
+      <node id="17">
+        <label>sub_atlantic_interfaces/msg/valve_cmd.hpp</label>
+      </node>
+      <node id="6">
+        <label>primatives.hpp</label>
+        <link refid="primatives_8hpp"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>sub_atlantic_interfaces/msg/valve_pack_cmd.hpp</label>
+      </node>
+      <node id="13">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>sub_atlantic/include/sub_atlantic/valve_pack.hpp</label>
+        <link refid="valve__pack_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>sub_atlantic/src/valve_pack.cpp</label>
+        <link refid="valve__pack_8cpp"/>
+      </node>
+      <node id="2">
+        <label>sub_atlantic/nodes/valve_pack_node.cpp</label>
+        <link refid="valve__pack__node_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsub__atlantic_1_1ValvePackDriver" prot="public">sub_atlantic::ValvePackDriver</innerclass>
+    <innernamespace refid="namespacesub__atlantic">sub_atlantic</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="package__defs_8hpp" kindref="compound">package_defs.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="control_8hpp" kindref="compound">datagrams/control.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdint&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;algorithm&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/asio.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;boost/crc.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rclcpp/rclcpp.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sub_atlantic_interfaces/msg/valve_cmd.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sub_atlantic_interfaces/msg/valve_pack_cmd.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;sub_atlantic_interfaces/msg/valve_pack_state.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="datagrams__defs_8hpp_1a65bbc1cef163319f4e880bfebffd5098" kindref="member">NS_HEAD</ref></highlight></codeline>
+<codeline lineno="22" refid="classsub__atlantic_1_1ValvePackDriver" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsub__atlantic_1_1ValvePackDriver" kindref="compound">ValvePackDriver</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>rclcpp::Node</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><ref refid="classsub__atlantic_1_1ValvePackDriver" kindref="compound">ValvePackDriver</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/>boost::asio::io_service<sp/>io;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/>boost::asio::serial_port<sp/>serial;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/>rclcpp::Subscription&lt;sub_atlantic_interfaces::msg::ValveCmd&gt;::SharedPtr<sp/>valve_pack_subscription_;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>initializeParameters();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>valveCmdCallback(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>sub_atlantic_interfaces::msg::ValveCmd::SharedPtr<sp/>msg);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>connectSerial(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>baud_rate,<sp/>std::string<sp/>device_address);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/>std::uint16_t<sp/>calculateCRC16(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;unsigned<sp/>char&gt;&amp;<sp/>data);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>splitBytes(std::uint16_t<sp/>crc,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>high_byte,<sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">&amp;<sp/>low_byte);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>changeBit(uint8_t&amp;<sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal">,<sp/>uint8_t<sp/>bit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>uint8_t<sp/>findSubstitutionCharacter(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;&amp;<sp/>frame);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>replaceSubstitutionCharacter(std::vector&lt;unsigned<sp/>char&gt;&amp;<sp/>data,<sp/></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>characterToReplace,<sp/></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>substitutionCharacter);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>standardControlMsg(uint8_t<sp/>pwm1_8<sp/>=<sp/>0x00,<sp/>uint8_t<sp/>pwm9_16<sp/>=<sp/>0x00,<sp/>uint8_t<sp/>pwm_open_loop<sp/>=<sp/>0x00);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="112"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><ref refid="datagrams__defs_8hpp_1ada1245f63d8402deab948957646cb61d" kindref="member">NS_FOOT</ref></highlight></codeline>
+    </programlisting>
+    <location file="sub_atlantic/include/sub_atlantic/valve_pack.hpp"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_89454b22300418602f4926b4d602709d" kind="dir">
+    <compoundname>sub_atlantic/nodes</compoundname>
+    <innerfile refid="valve__pack__node_8cpp">valve_pack_node.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sub_atlantic/nodes/"/>
+  </compounddef>
+</doxygen>

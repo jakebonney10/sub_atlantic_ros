@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="2__api_8md" kind="file" language="Markdown">
+    <compoundname>2_api.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">#<sp/>API<sp/>Usage</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>you<sp/>have<sp/>an<sp/>API<sp/>for<sp/>your<sp/>package<sp/>it<sp/>is<sp/>probably<sp/>best<sp/>to<sp/>give<sp/>some<sp/>high-level<sp/>instructions<sp/>here<sp/>rather<sp/>than<sp/>just<sp/>relying<sp/>on<sp/>the<sp/>automatically<sp/>generated<sp/>documentation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Give<sp/>an<sp/>overview<sp/>of<sp/>how<sp/>you<sp/>intend<sp/>the<sp/>api<sp/>to<sp/>be<sp/>used.<sp/></highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Give<sp/>a<sp/>few<sp/>examples</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Most<sp/>importantly!<sp/><sp/><sp/>Give<sp/>some<sp/>&quot;hello<sp/>world&quot;<sp/>examples!</highlight></codeline>
+    </programlisting>
+    <location file="docs/2_api.md"/>
+  </compounddef>
+</doxygen>

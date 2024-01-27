@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="control_8hpp" kind="file" language="C++">
+    <compoundname>control.hpp</compoundname>
+    <includes refid="datagrams__defs_8hpp" local="yes">datagrams_defs.hpp</includes>
+    <includes refid="primatives_8hpp" local="yes">primatives.hpp</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="valve__pack_8hpp" local="yes">sub_atlantic/include/sub_atlantic/valve_pack.hpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>package_defs</label>
+      </node>
+      <node id="7">
+        <label>stdexcept</label>
+      </node>
+      <node id="1">
+        <label>sub_atlantic/include/sub_atlantic/datagrams/control.hpp</label>
+        <link refid="control_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+      <node id="2">
+        <label>datagrams_defs.hpp</label>
+        <link refid="datagrams__defs_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>string.h</label>
+      </node>
+      <node id="8">
+        <label>vector</label>
+      </node>
+      <node id="4">
+        <label>primatives.hpp</label>
+        <link refid="primatives_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>sub_atlantic/include/sub_atlantic/valve_pack.hpp</label>
+        <link refid="valve__pack_8hpp"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>sub_atlantic/include/sub_atlantic/datagrams/control.hpp</label>
+        <link refid="control_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>sub_atlantic/src/valve_pack.cpp</label>
+        <link refid="valve__pack_8cpp"/>
+      </node>
+      <node id="3">
+        <label>sub_atlantic/nodes/valve_pack_node.cpp</label>
+        <link refid="valve__pack__node_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classsub__atlantic_1_1datagrams_1_1Control" prot="public">sub_atlantic::datagrams::Control</innerclass>
+    <innerclass refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t" prot="public">sub_atlantic::datagrams::Control::Control_t</innerclass>
+    <innernamespace refid="namespacesub__atlantic">sub_atlantic</innernamespace>
+    <innernamespace refid="namespacesub__atlantic_1_1datagrams">sub_atlantic::datagrams</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="datagrams__defs_8hpp" kindref="compound">datagrams_defs.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="primatives_8hpp" kindref="compound">primatives.hpp</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="namespacesub__atlantic" refkind="compound"><highlight class="normal"><ref refid="datagrams__defs_8hpp_1a65bbc1cef163319f4e880bfebffd5098" kindref="member">NS_HEAD</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="classsub__atlantic_1_1datagrams_1_1Control" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classsub__atlantic_1_1datagrams_1_1Control" kindref="compound">Control</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t" kindref="compound">Control_t</ref>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/>sub_char;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/>id;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/>analogs;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/>pwm_power;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/>swiched_outputs_power;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>seccondary_supplies;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">byte</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>open_loop_on;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative" kindref="compound">BE_u16</ref><sp/><sp/><sp/><sp/><sp/><sp/>pwm_pair[8];<sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/><sp/><sp/><sp/><sp/>rs232_channel;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>}__attribute__((packed));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classsub__atlantic_1_1datagrams_1_1Control" kindref="compound">Control</ref>(){</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data_vect.resize(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t" kindref="compound">Control_t</ref>));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typePtr().id<sp/>=<sp/>0x01;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>ConsoleCmd_t<sp/>*<sp/>typePtr(){</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">reinterpret_cast&lt;</highlight><highlight class="normal">Control_t*</highlight><highlight class="keyword">&gt;</highlight><highlight class="normal">(data_vect.data());</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>ConsoleCmd_t<sp/>*<sp/>operator-&gt;(){</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>typePtr();</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setOpenLoop(uint8_t<sp/>index){</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typePtr()-&gt;open_loop_on<sp/>|=<sp/>(1<sp/>&lt;&lt;<sp/>index);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>setPwmPair(uint8_t<sp/>index,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scaled_value){</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>setOpenLoop(index);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespacesub__atlantic_1_1datagrams_1_1primitives_1a92684599f1370142d74f3bb4e712b86d" kindref="member">u16</ref><sp/>raw_value<sp/>=<sp/>scaled_value<sp/>*<sp/>0x3FFF;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>typePtr()-&gt;pwm_pair[index]<sp/>=<sp/>raw_value;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;byte&gt;<sp/>serialize(){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>data_vect;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;byte&gt;<sp/>data_vect;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><ref refid="datagrams__defs_8hpp_1ada1245f63d8402deab948957646cb61d" kindref="member">NS_FOOT</ref></highlight></codeline>
+    </programlisting>
+    <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp"/>
+  </compounddef>
+</doxygen>

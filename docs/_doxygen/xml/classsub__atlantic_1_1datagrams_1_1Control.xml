@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classsub__atlantic_1_1datagrams_1_1Control" kind="class" language="C++" prot="public">
+    <compoundname>sub_atlantic::datagrams::Control</compoundname>
+    <includes local="no">control.hpp</includes>
+    <innerclass refid="structsub__atlantic_1_1datagrams_1_1Control_1_1Control__t" prot="public">sub_atlantic::datagrams::Control::Control_t</innerclass>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classsub__atlantic_1_1datagrams_1_1Control_1a3eacfc23de16854ae4fe9ef4694a4a52" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="namespacesub__atlantic_1_1datagrams_1a7d984b77070b2b7720670b5dee84ed13" kindref="member">byte</ref> &gt;</type>
+        <definition>std::vector&lt;byte&gt; sub_atlantic::datagrams::Control::data_vect</definition>
+        <argsstring></argsstring>
+        <name>data_vect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="48" column="17" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classsub__atlantic_1_1datagrams_1_1Control_1ab372a53a49ce6205078a2be625127639" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::Control::Control</definition>
+        <argsstring>()</argsstring>
+        <name>Control</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="24" column="5" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classsub__atlantic_1_1datagrams_1_1Control_1abcce6e4edd60007eb59af3e7b2b86d8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ConsoleCmd_t *</type>
+        <definition>ConsoleCmd_t* sub_atlantic::datagrams::Control::typePtr</definition>
+        <argsstring>()</argsstring>
+        <name>typePtr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="28" column="19" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classsub__atlantic_1_1datagrams_1_1Control_1ad2816fab20203cc51de01504cc06c287" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ConsoleCmd_t *</type>
+        <definition>ConsoleCmd_t* sub_atlantic::datagrams::Control::operator-&gt;</definition>
+        <argsstring>()</argsstring>
+        <name>operator-&gt;</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="31" column="19" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classsub__atlantic_1_1datagrams_1_1Control_1a362c40f0a5758815891a5f1909d2213e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sub_atlantic::datagrams::Control::setOpenLoop</definition>
+        <argsstring>(uint8_t index)</argsstring>
+        <name>setOpenLoop</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="34" column="10" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="34" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classsub__atlantic_1_1datagrams_1_1Control_1a0d3a2d6069b942e85cbb28f28c257588" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sub_atlantic::datagrams::Control::setPwmPair</definition>
+        <argsstring>(uint8_t index, float scaled_value)</argsstring>
+        <name>setPwmPair</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>index</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaled_value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="37" column="10" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classsub__atlantic_1_1datagrams_1_1Control_1a71dfda100465fbdb106b8c54e239e2f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="namespacesub__atlantic_1_1datagrams_1a7d984b77070b2b7720670b5dee84ed13" kindref="member">byte</ref> &gt;</type>
+        <definition>std::vector&lt;byte&gt; sub_atlantic::datagrams::Control::serialize</definition>
+        <argsstring>()</argsstring>
+        <name>serialize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="42" column="17" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="42" bodyend="44"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" line="9" column="1" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/control.hpp" bodystart="10" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classsub__atlantic_1_1datagrams_1_1Control_1ab372a53a49ce6205078a2be625127639" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control</scope><name>Control</name></member>
+      <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a3eacfc23de16854ae4fe9ef4694a4a52" prot="protected" virt="non-virtual"><scope>sub_atlantic::datagrams::Control</scope><name>data_vect</name></member>
+      <member refid="classsub__atlantic_1_1datagrams_1_1Control_1ad2816fab20203cc51de01504cc06c287" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control</scope><name>operator-&gt;</name></member>
+      <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a71dfda100465fbdb106b8c54e239e2f6" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control</scope><name>serialize</name></member>
+      <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a362c40f0a5758815891a5f1909d2213e" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control</scope><name>setOpenLoop</name></member>
+      <member refid="classsub__atlantic_1_1datagrams_1_1Control_1a0d3a2d6069b942e85cbb28f28c257588" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control</scope><name>setPwmPair</name></member>
+      <member refid="classsub__atlantic_1_1datagrams_1_1Control_1abcce6e4edd60007eb59af3e7b2b86d8b" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::Control</scope><name>typePtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

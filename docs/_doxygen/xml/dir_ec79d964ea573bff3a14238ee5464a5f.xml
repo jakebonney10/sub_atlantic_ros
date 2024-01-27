@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="dir_ec79d964ea573bff3a14238ee5464a5f" kind="dir">
+    <compoundname>sub_atlantic/include/sub_atlantic</compoundname>
+    <innerdir refid="dir_80910494584febc60f41f9dc61bcfeae">sub_atlantic/include/sub_atlantic/datagrams</innerdir>
+    <innerfile refid="package__defs_8hpp">package_defs.hpp</innerfile>
+    <innerfile refid="valve__pack_8hpp">valve_pack.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sub_atlantic/include/sub_atlantic/"/>
+  </compounddef>
+</doxygen>

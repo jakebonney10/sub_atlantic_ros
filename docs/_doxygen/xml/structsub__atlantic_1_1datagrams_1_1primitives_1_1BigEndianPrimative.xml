@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative" kind="struct" language="C++" prot="public">
+    <compoundname>sub_atlantic::datagrams::primitives::BigEndianPrimative</compoundname>
+    <includes local="no">primatives.hpp</includes>
+    <templateparamlist>
+      <param>
+        <type>typename PrimT</type>
+      </param>
+    </templateparamlist>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a3e6aeecf10a591990172fac8a7b32a37" prot="public" static="no" mutable="no">
+        <type>PrimT</type>
+        <definition>PrimT sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::raw</definition>
+        <argsstring></argsstring>
+        <name>raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="47" column="9" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1af876a93372924f1f8bffe2b8e7b507e5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>PrimT</type>
+        <definition>PrimT sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <briefdescription>
+<para>returns the machine-endian version of the variable in the specified (PrimT) type. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>a machine endian version fo the variable </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="53" column="9" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a005726d91d773ebe42a3ed478bf646a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::set</definition>
+        <argsstring>(PrimT val)</argsstring>
+        <name>set</name>
+        <param>
+          <type>PrimT</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="56" column="8" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1ace96618e6bff7df58d5caf440b4b1370" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator int8_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator int8_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="60" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a8cad0ad8807cb4ed4324305abda03ff9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator int16_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator int16_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="61" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a5060ec0f2a8e572f72e048b67949eead" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator int32_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator int32_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="62" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a640b8ef844853cd8da6f95d48d10f997" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator uint8_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator uint8_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="64" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="64" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a343f763c17057bdb8834226abfdf99d1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator uint16_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator uint16_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="65" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="65" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a8585612ca1eccaeaae67215313ce61a9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator uint32_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator uint32_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="66" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a98b6e7656ecfd3c7e3a732d91fe9b7a2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator float</definition>
+        <argsstring>() const</argsstring>
+        <name>operator float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="68" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="68" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a5259fefbe00461eaa296dbf547dd3e28" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>sub_atlantic::datagrams::primitives::BigEndianPrimative&lt; PrimT &gt;::operator double</definition>
+        <argsstring>() const</argsstring>
+        <name>operator double</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="69" column="3" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="69" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The <ref refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative" kindref="compound">BigEndianPrimative</ref> struct represents a big endian version of various primitives. Also includes overloaded casting operators so it can be assigned to standard primatives with minimal extra syntax. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" line="46" column="1" bodyfile="sub_atlantic/include/sub_atlantic/datagrams/primatives.hpp" bodystart="46" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1af876a93372924f1f8bffe2b8e7b507e5" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>get</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a5259fefbe00461eaa296dbf547dd3e28" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator double</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a98b6e7656ecfd3c7e3a732d91fe9b7a2" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator float</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a8cad0ad8807cb4ed4324305abda03ff9" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator int16_t</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a5060ec0f2a8e572f72e048b67949eead" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator int32_t</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1ace96618e6bff7df58d5caf440b4b1370" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator int8_t</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a343f763c17057bdb8834226abfdf99d1" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator uint16_t</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a8585612ca1eccaeaae67215313ce61a9" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator uint32_t</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a640b8ef844853cd8da6f95d48d10f997" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>operator uint8_t</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a3e6aeecf10a591990172fac8a7b32a37" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>raw</name></member>
+      <member refid="structsub__atlantic_1_1datagrams_1_1primitives_1_1BigEndianPrimative_1a005726d91d773ebe42a3ed478bf646a8" prot="public" virt="non-virtual"><scope>sub_atlantic::datagrams::primitives::BigEndianPrimative</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
